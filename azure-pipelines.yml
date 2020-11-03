@@ -29,6 +29,6 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)/server.js'
+    PathtoPublish: '/home/vsts/work/1/s/server.js'
     ArtifactName: 'drop'
     publishLocation: 'Container'
